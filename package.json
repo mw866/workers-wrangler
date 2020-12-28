@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "Static Caching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "static-caching.js",
+  "author": "Chris Wang",
+  "scripts": {
+    "publish": "env ENVIRONMENT_NAME=$npm_config_env wrangler publish",
+    "test": "env ENVIRONMENT_NAME=$npm_config_env mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.1",
+    "request": "^2.88.2",
+    "standard": "^16.0.3"
+  }
+}
