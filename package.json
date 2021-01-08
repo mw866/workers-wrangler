@@ -3,17 +3,21 @@
   "name": "Static Caching",
   "version": "1.0.0",
   "description": "",
-  "main": "static-caching.js",
+  "main": "index.js",
   "author": "Chris Wang",
   "scripts": {
-    "publish": "env ENVIRONMENT_NAME=$npm_config_env wrangler publish",
+    "deploy": "wrangler publish --env=$npm_config_env",
+    "build": "webpack --config=webpack.staging.js",
     "test": "env ENVIRONMENT_NAME=$npm_config_env mocha"
   },
   "devDependencies": {
+    "@cloudflare/wrangler": "^1.12.3",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "mocha": "^8.2.1",
     "request": "^2.88.2",
-    "standard": "^16.0.3"
+    "standard": "^16.0.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
   }
 }
