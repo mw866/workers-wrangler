@@ -1,0 +1,8 @@
+{
+    "staging": [
+        {"path":"/status/200.invalid","status":200,"cacheStatus":"DYNAMIC"},
+        {"path":"/status/200.css","status":200,"cacheStatus":"HIT"},
+        {"path":"/status/404.invalid","status":404,"cacheStatus":"HIT"},
+        {"path":"/status/404.css","status":404,"cacheStatus":"HIT"}
+    ]
+}

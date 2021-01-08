@@ -1,5 +1,5 @@
 name = "static-caching"
-type = "javascript"
+type = "webpack"
 workers_dev = false
 
 [dev]
@@ -11,4 +11,5 @@ upstream_protocol="https"
 account_id = "78ab5493f4bafb4b7b027542995bb87d"
 route = "nginx.chriswang.me/status/*"
 zone_id = "2a0086b5c6e89ce13797f1af8c8fa88a"
+webpack_config = "webpack.staging.js"
 

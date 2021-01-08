@@ -1,0 +1,6 @@
+
+{
+    "staging":  [
+        {"url":"https://example.com/status/200.invalid","cf": { "cacheTtlByStatus": { "200": 600, "404": 10 }, "cacheEverything": true }}
+    ]
+}
