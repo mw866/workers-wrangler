@@ -9,7 +9,6 @@ This is a demo Cloudflare Workers environment, which
 ## Installation
 
 ```
-npm i -g @cloudflare/wrangler 
 cd <DIRECTORY_NAME>
 npm i 
 ```
