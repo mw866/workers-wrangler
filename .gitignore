@@ -1,4 +1,13 @@
-node_modules/
-dist/
-worker/
+**/node_modules/
+**/dist/
+**/target
+**/dist
+**/*.rs.bk
+**/worker/
+**/bin/
+**/pkg/
+**/node_modules/
+Cargo.lock
+wasm-pack.log
+.cargo-ok
 .DS_Store
