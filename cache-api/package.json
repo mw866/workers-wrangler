@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "workers-cache-api",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "curl -i https://httpbin.chriswang.me/anything/cache-api",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Chris Wang <dev@chriswang.tech>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

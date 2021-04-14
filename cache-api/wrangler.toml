@@ -1,0 +1,7 @@
+name = "workers-cache-api"
+type = "javascript"
+account_id = "78ab5493f4bafb4b7b027542995bb87d"
+workers_dev = true
+route = "httpbin.chriswang.me/anything/cache-api"
+zone_id = "2a0086b5c6e89ce13797f1af8c8fa88a"
+usage_model = ""
